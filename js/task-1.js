@@ -1,6 +1,6 @@
 function makeTransaction(quantity, pricePerDroid) {
   const totalPrice = quantity * pricePerDroid;
-  return `"You ordered ${quantity} droids worth ${totalPrice} credits!"`;
+  return `You ordered ${quantity} droids worth ${totalPrice} credits!`;
   // Подвійні лапки додав, хоча не знаю чи потрібні вони, але на код не впливають.
 }
 
